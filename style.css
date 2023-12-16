@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif; 
+}
+.outer-box{
+    height: 100vh;
+    width: 100vw;
+    background-image:linear-gradient(to right top,white,pink,yellow);
+}
+.inner-box{
+    width: 400px;
+    margin:0 auto;
+    position: relative;
+    top:40%;
+    transform: translateY(-50%);
+    border-radius: 8px;
+    padding: 20px 40px;
+    background-color: aliceblue;
+    box-shadow: 3px 3px 5px ;
+    z-index: 2;
+
+}
+.signup-header h1{
+    font-size: 2.5rem;
+    color: #212121;
+}
+.signup-header p{
+    font-size: 0.8rem;
+    color:#555;
+}
+.signup-body p{
+    margin: 20px 0;
+}
+.signup-body p label{
+      display: block;
+}
+.signup-body p input{
+    width:100%;
+    padding: 10px;
+    border:2px solid #cccc;
+    border-radius: 8px;
+}
+.signup-body p input[type="submit"]{
+    color: aliceblue;
+    background-image:linear-gradient(to top right,white,green,blue);
+    cursor: pointer;
+}
+.signup-body p input[type="submit"]:hover{
+    background-image:linear-gradient(to top right,blue,green,white);
+}
+.signup-body p input[type="text"]{
+    color:black;
+    background-image:linear-gradient(to top right,white,pink,yellow);
+}
+.signup-body p input[type="email"]{
+    color: black;
+    background-image:linear-gradient(to top right,white,pink,yellow);
+}
+.signup-body p input[type="password"]{
+    color: black;
+    background-image:linear-gradient(to top right,white,pink,yellow);
+}
+.signup-footer p{
+    color: #555;
+    text-align: center;
+}
+.signup-footer p a{
+    color: green;
+}
+
